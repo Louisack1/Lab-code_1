@@ -44,3 +44,28 @@ max_value = max(numbers)
 
 print("Minimum value:", min_value)
 print("Maximum value:", max_value)
+
+fruit = "apples"
+for item in fruit:
+    print(item)
+print("done")
+
+total = 0
+for i in range(10000):
+    total = total + i
+
+print("Sum of all numbers from 0 to 10000:", total)
+
+my_list = ["Superman", "Wonder Woman", "Batman", "Aquaman", "Flash", "Shazam"]
+print(len(my_list))
+
+
+for item in my_list:
+    print(item)
+
+for item in range(len(my_list)):
+    my_list.append("Horus")
+    print("item is now: ", item)
+    print("List is now: ", my_list)
+
+    print(my_list)
